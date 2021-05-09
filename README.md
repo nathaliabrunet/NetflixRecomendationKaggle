@@ -1,6 +1,7 @@
 # Netflix Movie Recomendation
-
-<img src="Figures/netflix.png">
+<p align="center">
+  <img src="Figures/netflix.png">
+</p>
 
 ## Tópicos 
 
@@ -57,10 +58,7 @@ Na primeira etapa é realizada a junção dos 4 arquivos txts e criação de um 
 
 csv gerado tem essa cara:
 
-<div align="center">
 <img src="Figures/cara csv.png">
-</div>
-
 
 2. step2-EDA
 
@@ -73,6 +71,7 @@ csv gerado tem essa cara:
 	Cálculo de similaridade
 	
 	Redução de dimensionalidade com TruncatedSVD
+
 
 3. step3-ML
 
