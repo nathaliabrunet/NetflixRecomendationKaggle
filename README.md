@@ -61,9 +61,13 @@ csv gerado tem essa cara:
 2. step2-EDA
 
 	Análise exploratória dos dados
+	
 	Criação da matriz esparsa
+	
 	Problemas de cold start
+	
 	Cálculo de similaridade
+	
 	Redução de dimensionalidade com TruncatedSVD
 
 3. step3-ML 
