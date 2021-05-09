@@ -52,11 +52,15 @@ As datas têm o formato AAAA-MM-DD.
 ## Passo a Passo
 
 1. step1-Criando csv
+
 Na primeira etapa é realizada a junção dos 4 arquivos txts e criação de um único csv chamado "dataset.csv"
 
 csv gerado tem essa cara:
 
+<div align="center">
 <img src="Figures/cara csv.png">
+</div>
+
 
 2. step2-EDA
 
@@ -70,11 +74,20 @@ csv gerado tem essa cara:
 	
 	Redução de dimensionalidade com TruncatedSVD
 
-3. step3-ML 
+3. step3-ML
+
 Terceira etapa é a implementação do modelo de recomendação.
 
 ## Estrutura do Diretório
 ```
+│   README.md
+│   step1-Criando csv.ipynb
+│   step2-EDA_MatrizEsparsa_Similaridade_TruncatedSVD.ipynb
+│
+└───Figures
+        cara csv.png
+        cara txt.png
+        netflix.png
 ```
 ## Ferramentas utilizadas
 * Jupyter notebook
