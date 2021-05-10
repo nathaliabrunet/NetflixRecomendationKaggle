@@ -64,17 +64,21 @@ csv gerado tem essa cara:
 <img src="Figures/cara csv.png">
 
 **2. step2-EDA**
-```
+
 Análise exploratória dos dados
+
 Criação da matriz esparsa
+
 Problemas de cold start
+
 Cálculo de similaridade
+
 Redução de dimensionalidade com TruncatedSVD
-```
 
-//**3. step3-ML**
 
-//Terceira etapa é a implementação do modelo de recomendação.
+**3. step3-ML**
+
+Implementação do modelo de recomendação.
 
 ## Estrutura do Diretório
 ```
