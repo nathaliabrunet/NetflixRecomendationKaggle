@@ -49,7 +49,8 @@ Ex:
 
 <img src="Figures/cara txt.png">
 
-As avaliações estão em uma escala de cinco estrelas (integral) de 1 a 5.
+As avaliações estão em uma escala de cinco estrelas de 1 a 5.
+
 As datas têm o formato AAAA-MM-DD.
 
 ## Passo a Passo
@@ -63,21 +64,17 @@ csv gerado tem essa cara:
 <img src="Figures/cara csv.png">
 
 **2. step2-EDA**
+```
+Análise exploratória dos dados
+Criação da matriz esparsa
+Problemas de cold start
+Cálculo de similaridade
+Redução de dimensionalidade com TruncatedSVD
+```
 
-	Análise exploratória dos dados
-	
-	Criação da matriz esparsa
-	
-	Problemas de cold start
-	
-	Cálculo de similaridade
-	
-	Redução de dimensionalidade com TruncatedSVD
+//**3. step3-ML**
 
-
-**3. step3-ML**
-
-Terceira etapa é a implementação do modelo de recomendação.
+//Terceira etapa é a implementação do modelo de recomendação.
 
 ## Estrutura do Diretório
 ```
