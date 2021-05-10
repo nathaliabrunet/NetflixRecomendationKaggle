@@ -57,7 +57,7 @@ As datas têm o formato AAAA-MM-DD.
 
 **1. step1-Criando csv**
 
-Na primeira etapa é realizada a junção dos 4 arquivos txts e criação de um único csv chamado "dataset.csv"
+    Na primeira etapa é realizada a junção dos 4 arquivos txts e criação de um único csv chamado "dataset.csv"
 
 csv gerado tem essa cara:
 
@@ -65,20 +65,20 @@ csv gerado tem essa cara:
 
 **2. step2-EDA**
 
-Análise exploratória dos dados
+    Análise exploratória dos dados
 
-Criação da matriz esparsa
+    Criação da matriz esparsa
 
-Problemas de cold start
+    Problemas de cold start
 
-Cálculo de similaridade
+    Cálculo de similaridade
 
-Redução de dimensionalidade com TruncatedSVD
+    Redução de dimensionalidade com TruncatedSVD
 
 
 **3. step3-ML**
 
-Implementação do modelo de recomendação.
+    Implementação do modelo de recomendação.
 
 ## Estrutura do Diretório
 ```
