@@ -30,11 +30,13 @@ Conjunto de dados da concorrência da Netflix para melhorar seu algoritmo de rec
 O dataset pode ser baixado no desafio do kaggle: https://www.kaggle.com/netflix-inc/netflix-prize-data
 
 Arquivos:
+```
 combined_data_1.txt
 combined_data_2.txt
 combined_data_3.txt
 combined_data_4.txt
 movie_titles.csv
+```
 
 A primeira linha de cada arquivo txt (ex: combined_data_1.txt) contém o id do filme seguido por dois pontos. 
 Cada linha subsequente no arquivo corresponde a uma avaliação de um cliente e sua data.
@@ -52,7 +54,7 @@ As datas têm o formato AAAA-MM-DD.
 
 ## Passo a Passo
 
-1. step1-Criando csv
+**1. step1-Criando csv**
 
 Na primeira etapa é realizada a junção dos 4 arquivos txts e criação de um único csv chamado "dataset.csv"
 
@@ -60,7 +62,7 @@ csv gerado tem essa cara:
 
 <img src="Figures/cara csv.png">
 
-2. step2-EDA
+**2. step2-EDA**
 
 	Análise exploratória dos dados
 	
@@ -73,7 +75,7 @@ csv gerado tem essa cara:
 	Redução de dimensionalidade com TruncatedSVD
 
 
-3. step3-ML
+**3. step3-ML**
 
 Terceira etapa é a implementação do modelo de recomendação.
 
